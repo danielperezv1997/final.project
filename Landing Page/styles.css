@@ -1,0 +1,67 @@
+body {
+    background-color: #14233c;
+}
+
+.nav-col {
+    background-color: #14233c;
+}
+
+.account-row {
+    background-color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.redcard {
+    display: none;
+}
+
+.manage-money-row {
+    background-color: white;
+}
+
+.customshadow {
+    box-shadow: 0px 7px 6px 0px #dedede;
+}
+
+button.signup {
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+    min-height: 43px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2991cc;
+    border: 1px solid #2991cc;
+    border-radius: 5px;
+}
+
+h1.current-account-title, p.current-account-text, h1.future-title {
+    color: white
+}
+
+h6.stores-text, h4.future-text, .nav-link {
+    color: grey;
+}
+
+.current-account-col {
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    ul.collapsed     { display: none; }
+    div.signupbutton button { display: none; }
+    div.signupbutton ul { color: white; margin-top: 35px; display: none; }
+    div.signupbutton ul li { text-decoration: none; list-style: none; }
+    .hamburger { display: block; color: white; font-size: 28px; float: right; }
+    .cards-mobile-image { display: none; }
+    .stores img { display: block; margin: 0 auto; padding: 3px;}
+    .redcard { display: block; }
+    .backgroundimagemobile { background-size: auto !important; }
+    ul li.p-5 { padding: 0 !important; }
+  }
